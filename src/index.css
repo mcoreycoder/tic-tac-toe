@@ -10,7 +10,11 @@ ol, ul {
 .board-row:after {
     clear: both;
     content: "";
+<<<<<<< HEAD
     display: table-cell;
+=======
+    display: table;
+>>>>>>> created gh-pages branch and added index.html file
 }
 
 .status {
@@ -18,6 +22,7 @@ ol, ul {
 }
 
 .square {
+<<<<<<< HEAD
     background: rgb(223, 216, 216);
     border: 2px solid rgb(10, 4, 4);
     float: left;
@@ -25,11 +30,24 @@ ol, ul {
     font-weight: bold;
     line-height: 1vh;
     height: 25vmin;
+=======
+    background: red;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+>>>>>>> created gh-pages branch and added index.html file
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
     text-align: center;
+<<<<<<< HEAD
     width: 25vmin;
+=======
+    width: 34px;
+>>>>>>> created gh-pages branch and added index.html file
 }
 
 .square:focus {
@@ -43,6 +61,7 @@ ol, ul {
 .game {
     display: flex;
     flex-direction: row;
+<<<<<<< HEAD
     background: rgb(82, 83, 83);
     justify-content: center;
     align-items: flex-start;
@@ -64,3 +83,10 @@ ol, ul {
     box-sizing: border-box;
 
 }
+=======
+}
+
+.game-info {
+    margin-left: 20px;
+}
+>>>>>>> created gh-pages branch and added index.html file
