@@ -10,7 +10,7 @@ ol, ul {
 .board-row:after {
     clear: both;
     content: "";
-    display: table;
+    display: table-cell;
 }
 
 .status {
@@ -18,18 +18,18 @@ ol, ul {
 }
 
 .square {
-    background: #fff;
-    border: 1px solid #999;
+    background: rgb(223, 216, 216);
+    border: 2px solid rgb(10, 4, 4);
     float: left;
-    font-size: 24px;
+    font-size: 19vmin;
     font-weight: bold;
-    line-height: 34px;
-    height: 34px;
+    line-height: 1vh;
+    height: 25vmin;
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 34px;
+    width: 25vmin;
 }
 
 .square:focus {
@@ -43,8 +43,24 @@ ol, ul {
 .game {
     display: flex;
     flex-direction: row;
+    background: rgb(82, 83, 83);
+    justify-content: center;
+    align-items: flex-start;
+    height: 95vh;
+    width: 95vw;
 }
 
 .game-info {
-    margin-left: 20px;
+    margin: 2em;
+    background: #999;
+
+
+}
+
+.game-board {
+    margin: 1em;
+    border: 1em;
+    white-space: nowrap;
+    box-sizing: border-box;
+
 }
