@@ -17,10 +17,6 @@ renderSquare(i) {
             value={this.props.squares[i]}
             onClick={() => this.props.onClick(i)}
         />
-<<<<<<< HEAD
-=======
-
->>>>>>> created gh-pages branch and added index.html file
     );
 }
 
