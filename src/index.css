@@ -12,7 +12,6 @@ ol, ul {
     content: "";
     display: inline-table;
     white-space: nowrap;
-
 }
 
 .status {
@@ -63,3 +62,4 @@ ol, ul {
     margin: 1em;
     border: 1em;
 }
+
